@@ -1,0 +1,28 @@
+{% extends 'base.html'%}
+
+{% block head %} 
+<title>home page</title>
+{% endblock %}
+
+<style>
+    body {
+       background-image: url(/templates/img/event-horizon.jpg);
+    }
+</style>
+
+{% block body %} 
+<br>
+<h1>Home Page</h1>
+<br>
+<main role="main">
+    <div class="jumbotron">
+        <div class="col-sm-8 mx-auto">
+            <h1>Welcome</h1>
+            <p>Welcome to the Prabhu Mishra's Blog! Here we'll be talking about everything from Sciences, Technology, Engineering and Mathematics and Physics and also philosophy sometimes</p>
+            <p>
+                <a class="btn btn-primary" href="/posts" role="button">Go To Posts &raquo;</a>
+            </p>
+        </div>
+    </div>
+</main>
+{% endblock %}
