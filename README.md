@@ -43,22 +43,22 @@ use 'sudo' before pip or pip3 if it asks for permission.
 
 after that install flask-sql alchemy
 
--sudo pip install Flask-SQLAlchemy
+       -sudo pip install Flask-SQLAlchemy
 
 or
 
--sudo pip3 install Flask-SQLAlchemy
+       -sudo pip3 install Flask-SQLAlchemy
 
 then install pylint for bug and quality checker, also used to setup database (especially in visual studio code)
  
 
 then run the following command on your command line
 
-cd Flask-app-2021
+       -cd Flask-app-2021
 
-set FLASK_APP=app.py
+       -set FLASK_APP=app.py
 
-flask run
+       -flask run
  
  
 then you will get your local host for your computer.
